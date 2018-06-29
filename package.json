@@ -1,0 +1,37 @@
+{
+  "name": "can-daddy-play-minecraft-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "keywords": [],
+  "author": "Stephen Sauceda <contact@stephensauceda.com> (https://stephensauceda.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^5.12.1",
+    "micro": "^9.3.2",
+    "urlencoded-body-parser": "^2.0.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  },
+  "now": {
+    "name": "candaddyplayminecraft-be",
+    "alias": "candaddyplayminecraft-be",
+    "files": [
+      "index.js",
+      "package.json",
+      "service_account.json",
+      "yarn.lock"
+    ],
+    "scale": {
+      "sfo1": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  }
+}
